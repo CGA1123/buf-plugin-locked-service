@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package test;
+
+service LockedService {
+  rpc MethodOne(MethodOneRequest) returns (MethodOneResponse);
+}
+
+message MethodOneRequest {}
+message MethodOneResponse {}
